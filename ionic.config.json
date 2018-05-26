@@ -1,0 +1,8 @@
+{
+  "name": "alimentacao",
+  "app_id": "faac1d0e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
