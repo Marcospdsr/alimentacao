@@ -4,7 +4,7 @@ import { AcompanhamentosPage } from '../acompanhamentos/acompanhamentos';
 import { PedidoPage } from '../pedido/pedido';
 import { LanchesPage } from '../lanches/lanches';
 import { BebidasPage } from '../bebidas/bebidas';
-import { PratosPage } from '../pratos/pratos';
+
 
 @Component({
   selector: 'page-pratos',
