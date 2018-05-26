@@ -3,7 +3,6 @@ import { NavController } from 'ionic-angular';
 import { PedidoPage } from '../pedido/pedido';
 import { LanchesPage } from '../lanches/lanches';
 import { AcompanhamentosPage } from '../acompanhamentos/acompanhamentos';
-import { BebidasPage } from '../bebidas/bebidas';
 import { PratosPage } from '../pratos/pratos';
 
 @Component({
