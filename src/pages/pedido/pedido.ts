@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LanchesPage } from '../lanches/lanches';
 import { AcompanhamentosPage } from '../acompanhamentos/acompanhamentos';
-
+import { ConfirmarPedidoPage } from "../confirmar-pedido/confirmar-pedido";
 import { BebidasPage } from '../bebidas/bebidas';
 import { PratosPage } from '../pratos/pratos';
 
@@ -29,5 +29,8 @@ export class PedidoPage {
   }goToPratos(params){
     if (!params) params = {};
     this.navCtrl.push(PratosPage);
+  }goToConfirmarPedido(params){
+    if (!params) params = {};
+    this.navCtrl.push(ConfirmarPedidoPage);
   }
 }
