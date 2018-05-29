@@ -6,19 +6,19 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding style="background:url(assets/img/zkzXXUCSRyb5IiYzfLIK_bg-body.jpg) no-repeat center;background-size:cover;" id="page4">
-  <form id="login-form1">
+  <form #loginForm='ngForm' id="login-form1">
     <ion-list id="login-list2">
       <ion-item id="login-input1">
         <ion-label>
           Email
         </ion-label>
-        <ion-input type="email" placeholder=""></ion-input>
+        <ion-input [(ngModel)]='login.email' name='email' type="email" placeholder=""></ion-input>
       </ion-item>
       <ion-item id="login-input2">
         <ion-label>
           Password
         </ion-label>
-        <ion-input type="password" placeholder=""></ion-input>
+        <ion-input type="password" [(ngModel)]='login.senha' name='login' placeholder=""></ion-input>
       </ion-item>
     </ion-list>
     <div class="spacer" style="height:40px;" id="login-spacer1"></div>
